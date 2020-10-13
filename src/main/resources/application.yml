@@ -1,0 +1,11 @@
+
+server:
+  port: 9082
+
+amazon:
+   access:
+     key: AKIAZ3UZNYSRDXHNEHVL
+     secret-key: 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
+   region: us-east-1
+   end-point:
+     url:  https://dynamodb.us-east-1.amazonaws.com
