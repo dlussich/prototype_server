@@ -2,10 +2,16 @@
 server:
   port: 9082
 
+jasypt:
+  encryptor:
+    password: M@x1m0
+    algorithm: PBEWithMD5AndTripleDES
+
 amazon:
    access:
-     key: AKIAZ3UZNYSRDXHNEHVL
-     secret-key: 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
+     key: ENC(gRvXgp+c3OSRYbjKjr8CXTeunYWEAKh3zgrWKHDdUiw=)
+     secret-key: ENC(xmiumIMkrjYjpg0hVEHYs3ErddcDoDhyNE4D7zjsLsb2ZUeAEmTfg/9zPbB1+Jxr2lotL7gDr1s=)
    region: us-east-1
    end-point:
      url:  https://dynamodb.us-east-1.amazonaws.com
+
