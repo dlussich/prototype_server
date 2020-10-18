@@ -9,8 +9,8 @@ jasypt:
 
 amazon:
    access:
-     key: ENC(gRvXgp+c3OSRYbjKjr8CXTeunYWEAKh3zgrWKHDdUiw=)
-     secret-key: ENC(xmiumIMkrjYjpg0hVEHYs3ErddcDoDhyNE4D7zjsLsb2ZUeAEmTfg/9zPbB1+Jxr2lotL7gDr1s=)
+     key: ENC(aWNNsaST4Ov+ej7SaGv6Td4OJTATUUa00CYgWYwMAgw=)
+     secret-key: ENC(KtBgh/C5pZQCBNwJ2zywsILRB0QqYIr8q7NCRY8Cko5XWflII0iiMCK5P4Ds6GU9BPd8bQKD+/s=)
    region: us-east-1
    end-point:
      url:  https://dynamodb.us-east-1.amazonaws.com
